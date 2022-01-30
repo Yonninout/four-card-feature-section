@@ -1,0 +1,25 @@
+{
+  "name": "four-card-feature-section-master",
+  "version": "1.0.0",
+  "description": "Simple four card layout ",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass sass/style.sass -o build",
+    "watch": "npm run css && node-sass sass/style.sass -wo build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonninout/four-card-feature-section.git"
+  },
+  "author": "Yonni Tabeling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yonninout/four-card-feature-section/issues"
+  },
+  "homepage": "https://github.com/Yonninout/four-card-feature-section#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.0"
+  }
+}
